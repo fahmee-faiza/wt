@@ -8,9 +8,10 @@
 <body>
 	<h3>Welcome</h3>
 	<br>
-	<h3>Your Current Balance</h3>
+	<label for="balance>"Your Current Balance</label><br>
 	<br>
-	<button type="button" onClick="document.location.href='/final/task1/view/updatebal.php'">Update Balance</button>
+	<button type="button" onClick="document.location.href='/final/task1/view/withdraw.php'">Balance Withdraw</button>
+	<button type="button" onClick="document.location.href='/final/task1/view/deposit.php'">Balance Deposit</button>
 
 </body>
 </html>
