@@ -40,7 +40,7 @@
 <body>
 	<?php
 	include 'dbcon.php';
-      $sql = "SELECT * FROM crudoperation";
+      $sql = "SELECT * FROM crudtable";
       $query_run = mysqli_query($conn,$sql);
   if(mysqli_num_rows($query_run)>0)
   {   	
